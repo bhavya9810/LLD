@@ -2,7 +2,7 @@ package com.creational.prototype;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("creating object using prototype design");
 
         NetworkConnection networkConnection = new NetworkConnection();

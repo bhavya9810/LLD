@@ -5,9 +5,9 @@ public class NetworkConnection implements Cloneable{
     private String ip;
     private String impData;
 
-    public void loadImportantData(){
+    public void loadImportantData() throws InterruptedException {
         this.impData="vry important data";
-
+        Thread.sleep(5000);
     }
 
     public String getImpData() {
