@@ -8,6 +8,6 @@ public class client {
                 .setUserId(007)
                 .build();
 
-        System.out.println(user.toString());
+        System.out.println(user);
     }
 }
