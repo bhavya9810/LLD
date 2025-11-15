@@ -33,7 +33,15 @@ public class NetworkConnection implements Cloneable {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+
+        NetworkConnection networkConnection=new NetworkConnection();
+        networkConnection.setIp(this.ip);
+        networkConnection.setImpData(this.impData);
+
+        for(String s:domains){
+            networkConnection.getDomains().add(s);
+        }
+        return networkConnection;
     }
 
     public String getIp() {
