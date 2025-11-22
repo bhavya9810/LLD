@@ -1,7 +1,5 @@
 package com.creational.singleton;
 
-import java.lang.reflect.Constructor;
-
 public class callingFunc {
 
     public static void main(String[] args) throws Exception {

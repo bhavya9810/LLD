@@ -1,7 +1,5 @@
 package com.creational.abstractFactory;
 
-import com.creational.abstractFactory.Employee;
-
 public class DevClient {
 
     public static void main(String[] args) {
