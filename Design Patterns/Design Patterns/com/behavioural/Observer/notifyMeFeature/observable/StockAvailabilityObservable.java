@@ -1,4 +1,6 @@
-package com.behavioural.Observer.notifyMeFeature;
+package com.behavioural.Observer.notifyMeFeature.observable;
+
+import com.behavioural.Observer.notifyMeFeature.observer.StockNotificationObserver;
 
 //observable
 public interface StockAvailabilityObservable {
