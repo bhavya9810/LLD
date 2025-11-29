@@ -12,11 +12,11 @@ public class IphoneProductObservable implements StockAvailabilityObservable {
     private final List<StockNotificationObserver> stockObservers;
     private int stockQuantity;
 
-    public IphoneProductObservable(String productId, String productName, double price, List<StockNotificationObserver> stockObservers) {
+    public IphoneProductObservable(String productId, String productName, double price, int stockQuantity) {
         this.productId = productId;
         this.productName = productName;
         this.price = price;
-        this.stockObservers = stockObservers;
+        this.stockObservers = new ArrayList<>();
         this.stockQuantity = stockQuantity;
     }
 
